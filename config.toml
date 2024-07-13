@@ -6,17 +6,17 @@ disableKinds = ["taxonomy"]
     writeStats = true
 
 [params]
-    title = "Sada Theme"
-    author = "Darshan Baral"
-    description = "Simple portfolio theme"
-    copyright = "Custom copyright message"
+    title = "Ejang Stephanie Ambikoh"
+    author = "Ejang Stephanie Ambikoh"
+    description = "The site it,s about my Cv"
+    copyright = "copy right 2024"
     theme = "dark" # `dark` or `light`
 
     # Profile section
     [params.profile]
-        name = "First Last"
-        title = "Abbr., K.A."
-        photo = "images/profile.jpg"
+        name = "Ejang Stephanie"
+        title = "Abbr., E.S"
+        photo = "images/steph.jpg"
 
     # Section for links to social websites
     [params.social]
@@ -24,12 +24,12 @@ disableKinds = ["taxonomy"]
 
         [[params.social.list]]
         icon = "fab fa-linkedin-in"
-        url = "#"
+        url = ""
         title = "LinkedIn"
 
         [[params.social.list]]
         icon = "fab fa-github"
-        url = "#"
+        url = "https://github.com/stephanie448"
         title = "GitHub"
 		
 		[[params.social.list]]
@@ -47,16 +47,16 @@ disableKinds = ["taxonomy"]
         title = "Education"
 
         [[params.education.list]]
-        degree = "Masters in Degree 1"
-        college = "University Number 1"
-        dates = "2016 - 2018"
+        degree = "Advaced level"
+        college = "GBHS Bangem"
+        dates = "2022-2023"
         thesis_title = "Title of the dissertation"
         thesis_link = "#"
 
         [[params.education.list]]
-        degree = "Bachelors in Degree 2"
-        college = "University Number 2"
-        dates = "2010 - 2014"
+        degree = "Ordinary Level"
+        college = "GBHS Bangem"
+        dates = "2021-2022"
 
     # Languages section
     [params.language]
@@ -67,7 +67,7 @@ disableKinds = ["taxonomy"]
         level = "Fluent"
 				
         [[params.language.list]]
-        language = "Bird"
+        language = "French"
         level = "Basic"
 
     # Interests section
@@ -81,57 +81,40 @@ disableKinds = ["taxonomy"]
         interest = "Music"
 
         [[params.hobbies.list]]
-        interest = "Flying"
+        interest = "Reading"
 
         [[params.hobbies.list]]
         interest = "Baking"
 
     [params.aboutme]
-        description = "Tagline. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-
-    # Experiences section
-    [params.experiences]
-        title = "Experiences"
-
-        [[params.jobs.list]]
-        position = "Job Number 1"
-        dates = "2018 - *Present*"
-		link = "#"
-        company = "Company name 1"
-
-        [[params.jobs.list]]
-        position = "Job Number 2"
-        dates = "2016 - 2018"
-		link = "#"
-        company = "Company name 2"
-        details = "Brief description of the `work` done. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        description = "I am a girl, I love my studies and i love what i do. I pray God directs me in the right direction."
 
     # Projects section
     [params.projects]
-        title = "Projects"
+        title = "Project"
 
         [[params.projects.list]]
-        title = "Awesome Project 1"
+        title = "Personal Resume"
         url = "#"
-        description = "Description of the *awesome* project 1"
+        description = "This project contains a brief introduction of my about'Education,social media platforms."
 		
 		[[params.projects.list]]
-        title = "Awesome Project 2"
-        url = "#"
-        description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        title = "Host on github pages using hogu"
+        url = "https://github.com/stephanie448"
+        description = "This concisesd of all the various steps and technologies used like ;html,node.js etc used in creating this project,the challenges faced,solution used in solving them and finally the outcome"
 
     # Skills section
     [params.skills]
         title = "Skills"
 
         [[params.skills.list]]
-        skill = "Skill 1, Skill 2"
-        skillrating = 95 # out of 100
+        skill = "html"
+        skillrating = 60 # out of 100
                 
         [[params.skills.list]]
-        skill = "Skill 3"
-        skillrating = 90
+        skill = "C++"
+        skillrating = 60
 		
         [[params.skills.list]]
-        skill = "Skill 4"
-        skillrating = 80
+        skill = "C programming"
+        skillrating = 60
